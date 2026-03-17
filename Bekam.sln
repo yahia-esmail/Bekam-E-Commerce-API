@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{369CB01D-A1A7-72D2-AABC-3F0945D148A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7DC331D0-3EC4-40A6-69FB-1CBEB2E0D1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bekam.API", "Bekam.API\Bekam.API.csproj", "{D64F3D6D-B894-7BCC-C9F5-2678656A0F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bekam.Application", "Bekam.Application\Bekam.Application.csproj", "{1CDFD95B-D11A-F396-0CFD-0BDC1776FEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bekam.Domain", "Bekam.Domain\Bekam.Domain.csproj", "{056FE73E-B37F-1A39-3D38-D7F2F3E5DEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bekam.Infrastructure", "Bekam.Infrastructure\Bekam.Infrastructure.csproj", "{D5AEAFF5-4669-C6EF-8D93-0030D3F4622D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64F3D6D-B894-7BCC-C9F5-2678656A0F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64F3D6D-B894-7BCC-C9F5-2678656A0F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64F3D6D-B894-7BCC-C9F5-2678656A0F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64F3D6D-B894-7BCC-C9F5-2678656A0F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDFD95B-D11A-F396-0CFD-0BDC1776FEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDFD95B-D11A-F396-0CFD-0BDC1776FEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDFD95B-D11A-F396-0CFD-0BDC1776FEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDFD95B-D11A-F396-0CFD-0BDC1776FEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056FE73E-B37F-1A39-3D38-D7F2F3E5DEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056FE73E-B37F-1A39-3D38-D7F2F3E5DEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056FE73E-B37F-1A39-3D38-D7F2F3E5DEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056FE73E-B37F-1A39-3D38-D7F2F3E5DEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AEAFF5-4669-C6EF-8D93-0030D3F4622D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AEAFF5-4669-C6EF-8D93-0030D3F4622D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AEAFF5-4669-C6EF-8D93-0030D3F4622D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AEAFF5-4669-C6EF-8D93-0030D3F4622D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D64F3D6D-B894-7BCC-C9F5-2678656A0F6F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1CDFD95B-D11A-F396-0CFD-0BDC1776FEE9} = {369CB01D-A1A7-72D2-AABC-3F0945D148A2}
+		{056FE73E-B37F-1A39-3D38-D7F2F3E5DEA7} = {369CB01D-A1A7-72D2-AABC-3F0945D148A2}
+		{D5AEAFF5-4669-C6EF-8D93-0030D3F4622D} = {7DC331D0-3EC4-40A6-69FB-1CBEB2E0D1EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13162F8F-C020-4269-878A-5CABC80EB9A3}
+	EndGlobalSection
+EndGlobal

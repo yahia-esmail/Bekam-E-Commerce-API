@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 0,
+    "Name": "Starbucks",
+    "NormalizedName": "STARBUCKS"
+  },
+  {
+    "Id": 0,
+    "Name": "Costa",
+    "NormalizedName": "COSTA"
+  },
+  {
+    "Id": 0,
+    "Name": "Cilantro",
+    "NormalizedName": "CILANTRO"
+  },
+  {
+    "Id": 0,
+    "Name": "TBS",
+    "NormalizedName": "TBS"
+  },
+  {
+    "Id": 0,
+    "Name": "On The Run",
+    "NormalizedName": "ON THE RUN"
+  },
+  {
+    "Id": 0,
+    "Name": "Caribou",
+    "NormalizedName": "CARIBOU"
+  },
+  {
+    "Id": 0,
+    "Name": "Krispy Kreme",
+    "NormalizedName": "KRISPY KREME"
+  }
+]

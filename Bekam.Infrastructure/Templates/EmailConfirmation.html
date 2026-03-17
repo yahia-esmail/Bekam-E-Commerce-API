@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Confirm your email</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f4f6;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #51545e;
+        }
+
+        .email-wrapper {
+            width: 100%;
+            background-color: #f2f4f6;
+            padding: 20px 0;
+        }
+
+        .email-content {
+            max-width: 570px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .email-header {
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: #3869d4;
+        }
+
+        .email-body {
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            color: #333333;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #22bc66;
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #a8aaaf;
+        }
+
+        .link {
+            word-break: break-all;
+            font-size: 13px;
+            color: #3869d4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-wrapper">
+        <div class="email-content">
+
+            <div class="email-header">
+                Bekam
+            </div>
+
+            <div class="email-body">
+                <h1>Hi {{name}},</h1>
+
+                <p>
+                    To confirm your email, please click the button below:
+                </p>
+
+                <p style="text-align: center;">
+                    <a href="{{action_url}}" class="button" target="_blank">
+                        Confirm Email
+                    </a>
+                </p>
+
+                <p>
+                    If the button doesn’t work, copy and paste this link into your browser:
+                </p>
+
+                <p class="link">
+                    {{action_url}}
+                </p>
+
+                <p>
+                    If you didn’t create an account, you can safely ignore this email.
+                </p>
+
+                <p>
+                    Thanks,<br />
+                    <strong>Bekam Team</strong>
+                </p>
+            </div>
+
+            <div class="footer">
+                © Bekam<br />
+                Cairo, Egypt
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

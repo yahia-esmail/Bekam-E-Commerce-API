@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 0,
+    "Name": "Food & Drinks",
+    "Description": "All types of food & Drinks items",
+    "PictureUrl": "images/categories/Food&drinks_category.jpg"
+  },
+  {
+    "Name": "Electronics",
+    "Description": "Latest gadgets and electronic devices",
+    "PictureUrl": "images/categories/Electronics_category.jpg"
+  },
+  {
+    "Name": "Fashion",
+    "Description": "Clothing and accessories for all styles",
+    "PictureUrl": "images/categories/Fashion_category.jpg"
+  },
+  {
+    "Name": "Home & Kitchen",
+    "Description": "Everything you need for your home",
+    "PictureUrl": "images/categories/Home&Kitchen_category.jpg"
+  },
+  {
+    "Name": "Health & Beauty",
+    "Description": "Personal care and wellness products",
+    "PictureUrl": "images/categories/Health&Beauty_category.jpg"
+  },
+  {
+    "Name": "Sports & Fitness",
+    "Description": "Fitness equipment and sports gear",
+    "PictureUrl": "images/categories/Sports&Fitness_category.jpg"
+  },
+  {
+    "Name": "Books & Education",
+    "Description": "Books, courses and learning materials",
+    "PictureUrl": "images/categories/Books&Education_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Frappuccino",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Frappuccino_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Latte",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Latte_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Mocha",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Mocha_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Macchiato",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Macchiato_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Matcha",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Matcha_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Cake",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Cake_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Donuts",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Donuts_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Salad",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Salad_category.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Sandwiches",
+    "ParentCategoryId": 1,
+    "PictureUrl": "images/categories/Sandwiches_category.jpg"
+  }
+]
